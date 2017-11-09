@@ -1,6 +1,7 @@
 <?php
 /*
 Plugin Name: Shifter HeartBeat on SitePreview
+Plugin URI: https://github.com/getshifter/shifter-heartbeat-on-sitepreview
 Version: 1.0.0
 Author: DigitalCube
 License: GPLv2 or later
