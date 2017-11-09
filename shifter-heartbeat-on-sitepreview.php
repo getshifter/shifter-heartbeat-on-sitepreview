@@ -2,6 +2,8 @@
 /*
 Plugin Name: Shifter HeartBeat on SitePreview
 Version: 1.0.0
+Author: DigitalCube
+License: GPLv2 or later
 */
 
 function shifter_heartbert_on_sitepreview_writeScript() {
