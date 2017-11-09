@@ -1,6 +1,7 @@
 <?php
 /*
 Plugin Name: Shifter HeartBeat on SitePreview
+Version: 1.0.0
 */
 
 function shifter_heartbert_on_sitepreview_writeScript() {
