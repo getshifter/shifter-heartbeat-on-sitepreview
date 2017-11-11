@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Shifter HeartBeat on SitePreview
+Plugin Name: Shifter – HeartBeat on SitePreview
 Plugin URI: https://github.com/getshifter/shifter-heartbeat-on-sitepreview
 Description: Send HeartBeat to detect editing.
-Version: 1.0.1
+Version: 1.0.2
 Author: Shifter Team
 Author URI: https://github.com/getshifter
 License: GPLv2 or later
