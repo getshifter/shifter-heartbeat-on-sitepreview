@@ -3,7 +3,7 @@
 Plugin Name: Shifter – HeartBeat on SitePreview
 Plugin URI: https://github.com/getshifter/shifter-heartbeat-on-sitepreview
 Description: Send HeartBeat to detect editing.
-Version: 1.0.2
+Version: 1.0.3
 Author: Shifter Team
 Author URI: https://github.com/getshifter
 License: GPLv2 or later
@@ -15,7 +15,7 @@ function shifter_heartbert_on_sitepreview_writeScript() {
 <script>
 function shifter_heartbert_getajax() {
   var xhr= new XMLHttpRequest();
-  xhr.open("GET","/wp-admin/admin-ajax.php");
+  xhr.open("GET","/wp-admin/admin-ajax.php?action=heartbeat");
   xhr.send();
 }
 setInterval("shifter_heartbert_getajax()",30000);
